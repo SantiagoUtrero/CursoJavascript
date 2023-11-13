@@ -62,7 +62,7 @@ function Juego(){
     }
 
     if(costoKey <=0)
-        alert("Lugar no valido")
+        alert("Juego no valido")
     else
         alert(`El juego es ${key} a ${costoKey} pesos`)
 
@@ -92,7 +92,7 @@ function Envio(){
     }
 
     if(costoEntrega <=0)
-        alert("Lugar no valido")
+        alert("Plataforma no valida")
     else
         alert(`Se enviara a ${entrega} por ${costoEntrega} pesos`)
 

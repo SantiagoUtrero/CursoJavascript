@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(8, 8, 8);
+    margin: 0 auto;
+}
+.nav{
+    width: 996px;
+    height: 266px;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+    border-radius: 60px 60px 10px 10px;
+    border-color: white;
+    border-style: solid;
+}
+.hijo{
+    display: flex;
+    justify-content: center;
+} 
+    img{
+        width: 200px;
+        height: 150px;
+    }
+.lista{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    list-style: none;
+    width: 500px;
+    margin: 30px 0px 0px 210px;
+        li{
+            display: inline-block;
+            justify-content: center;
+            align-items: center;
+            padding: 0 10px;
+        }
+            a{
+                font-size: 100%;
+                color: rgb(255, 255, 255);
+                text-decoration: none;
+            }
+            a:hover{
+                color: rgb(245, 0, 0);
+            }
+}

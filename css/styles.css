@@ -1,49 +1,89 @@
 body {
-  background-color: rgb(8, 8, 8);
+  background-color: rgb(234, 234, 234);
   margin: 0 auto;
 }
 
-.nav {
-  width: 996px;
-  height: 266px;
-  margin: 20px auto 0px auto;
-  background-color: rgb(0, 0, 0);
-  border-radius: 60px 60px 10px 10px;
-  border-color: white;
-  border-style: solid;
+.header {
+  margin-top: 40px;
 }
-
-.hijo {
+.header a {
   display: flex;
   justify-content: center;
 }
-
-img {
-  width: 200px;
-  height: 150px;
+.header a img {
+  width: 1000px;
+  height: 288px;
 }
-
-.lista {
+.header nav {
+  background-color: rgb(255, 217, 0);
+  margin: 0px auto 0px auto;
+  width: 1000px;
+}
+.header nav .carrito {
+  cursor: pointer;
+  font-size: 30px;
+  margin: 5px 0px 5px 600px;
   display: flex;
-  justify-content: center;
-  background-color: rgb(0, 0, 0);
-  list-style: none;
-  width: 500px;
-  margin: 30px 0px 0px 210px;
-}
-.lista li {
-  display: inline-block;
-  justify-content: center;
   align-items: center;
-  padding: 0 10px;
-}
-.lista a {
-  font-size: 100%;
-  color: rgb(255, 255, 255);
   text-decoration: none;
 }
-.lista a:hover {
-  color: rgb(245, 0, 0);
+.header nav ul {
+  margin: 0;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.header nav ul li {
+  margin-right: 10px;
+}
+.header nav ul li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.754);
+  font-size: 15px;
+}
+.header nav ul li a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.slider-container {
+  width: 1000px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  background-color: rgb(0, 0, 0);
+}
+.slider-container h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 32px;
+}
+
+.slider-img {
+  width: 100%;
+  display: none;
+}
+
+.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.prev {
+  left: 10px;
+  color: white;
+}
+
+.next {
+  right: 10px;
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */

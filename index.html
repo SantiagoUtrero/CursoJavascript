@@ -9,26 +9,33 @@
 </head>
 <body>
 
-    <header class="nav">
+    <header class="header">
+        <a href="./index.html" role="banner"><img src="./images/header.png" alt=""></a>
+        
         <nav>
-            <figure class="hijo">
-                <img src="./images/logo.png" alt="logo de norshop">
-            </figure>
-            
-            <div>
-                <ul class="lista">
-                    <li> <a href="#">HOME</a></li>
-                    <li> <a href="#">STORE</a></li>
-                    <li> <a href="#">COMMUNITY</a></li>
-                    <li> <a href="#">PROFILE</a></li>
-                    <li> <a href="#">SUPPORT</a></li>
-                </ul>
-            </div>
-            </nav>
+            <ul class="lista">
+                <li> <a href="#">CATEGORIES</a></li>
+                <li> <a href="#">KEYS</a></li>
+                <li> <a href="#">SOFTWARE</a></li>
+                <li> <a href="#">GAMES</a></li>
+                
+                <a href="#" class="carrito">🛒</a>
+            </ul>
+        </nav>
     </header>
 
-    <main>
-        
+    <main class="main" id="mainId">
+        <div class="slider-container">
+            <h1>YOU MUST SEE</h1>
+            <img class="slider-img" src="./images/./steamslider.png" alt="Imagen 1">
+            <img class="slider-img" src="./images/xboxslider.png" alt="Imagen 2">
+            <img class="slider-img" src="./images/nintendoslider.png" alt="Imagen 3">
+            <img class="slider-img" src="./images/./psslider.png" alt="Imagen 4">
+    
+            <button class="slider-btn prev" onclick="prevSlide()">&#10094;</button>
+            <button class="slider-btn next" onclick="nextSlide()">&#10095;</button>
+        </div>
     </main>
+
 </body>
 </html>

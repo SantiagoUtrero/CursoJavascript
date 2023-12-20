@@ -86,4 +86,98 @@ body {
   color: white;
 }
 
+.contenido-tienda {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+  padding-top: 40px;
+  background-color: rgb(0, 0, 0);
+  max-width: 1000px;
+}
+
+.cards {
+  max-width: 300px;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+.cards h2 {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+}
+.cards button {
+  border: none;
+  outline: 0;
+  padding: 14px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 217, 0);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 22px;
+}
+.cards img {
+  width: 80%;
+  height: 240px;
+  margin-top: 20px;
+}
+
+.modal-contenido {
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 88vh;
+  color: white;
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  overflow: hidden;
+  z-index: 9;
+  top: 39.5vh;
+  left: 55vh;
+  scrollbar-color: none;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(37, 37, 37);
+  color: white;
+  max-width: 1000px;
+  width: 100%;
+}
+.modal-header .modal-header-titulo {
+  justify-self: start;
+}
+.modal-header .button-modal {
+  cursor: pointer;
+}
+
+.total-contenido {
+  font-size: 25px;
+  background-color: rgb(37, 37, 37);
+  width: 100%;
+  padding: 10px 13px 13px 13px;
+  text-align: center;
+}
+
+.carrito-contenido {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1000px;
+  width: 70%;
+  margin: 10px;
+}
+.carrito-contenido img {
+  height: 140px;
+  width: 170px;
+}
+
 /*# sourceMappingURL=styles.css.map */

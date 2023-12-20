@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script defer src="js/index.js"></script>
     <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
 
@@ -19,7 +19,7 @@
                 <li> <a href="#">SOFTWARE</a></li>
                 <li> <a href="#">GAMES</a></li>
                 
-                <a href="#" class="carrito">🛒</a>
+                <a href="#" class="ver-carrito" id="verCarrito">🛒</a>
             </ul>
         </nav>
     </header>
@@ -30,12 +30,21 @@
             <img class="slider-img" src="./images/./steamslider.png" alt="Imagen 1">
             <img class="slider-img" src="./images/xboxslider.png" alt="Imagen 2">
             <img class="slider-img" src="./images/nintendoslider.png" alt="Imagen 3">
-            <img class="slider-img" src="./images/./psslider.png" alt="Imagen 4">
+            <img class="slider-img" src="./images/psslider.png" alt="Imagen 4">
     
             <button class="slider-btn prev" onclick="prevSlide()">&#10094;</button>
             <button class="slider-btn next" onclick="nextSlide()">&#10095;</button>
         </div>
     </main>
 
+        <!-- contenido cards -->
+        <div id="contenidoTienda" class="contenido-tienda"></div>
+
+        <!-- contenido modal -->
+        <div id="modalContenido" class="modal-contenido"></div>
+        
+        <script src="js/products.js"></script>
+        <script src="js/index.js"></script>
+        
 </body>
 </html>
